@@ -20,24 +20,7 @@ const handleCreateUser = async () => {
 
 <template>
   <div class="create-user-container">
-    <h2>Create User</h2>
-    <input v-model="name" placeholder="Name" />
-    <input v-model="email" placeholder="Email" />
-    <button @click="handleCreateUser">Create User</button>
+    <h2>Create User1</h2>
+
   </div>
 </template>
-<style scoped>
-.user-form {
-  width: 300px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-input, button {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-}
-</style>

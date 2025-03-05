@@ -1,6 +1,6 @@
 import api from './api';
 
-const API_URL = 'http://localhost:8080/auth';
+const API_URL = 'http://localhost:8080';
 
 export const login = async (username: string, password: string) => {
     try {

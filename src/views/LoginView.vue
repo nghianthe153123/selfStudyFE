@@ -11,7 +11,7 @@ const handleLogin = async () => {
   try {
     await login(username.value, password.value);
     alert('Đăng nhập thành công!');
-    router.push('/createuser');
+    router.push('/hello');
   } catch (error) {
     alert('Đăng nhập thất bại!');
   }
